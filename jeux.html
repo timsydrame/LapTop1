@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Taupe Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- liens du fichier CSS de Font Awesome à partir d'un CDN. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- liens jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-chess-knight"></i> Bienvenue dans <i class="fas fa-gamepad"></i>mon Jeu<i
+                class="fas fa-gamepad"></i> de Tap Taupe <i class="fas fa-chess-knight"></i></h1>
+    </header>
+    <div id="scoreboard">
+        <label for="score">Score:</label>
+        <input type="text" id="score" value="0" readonly>
+    </div>
+
+    <div id="gameboard">
+
+        <table>
+            <tr>
+                <td><button value="1" id="btn1"><i id='fas1' class="fas fa-dice"></i> </button></td>
+                <td><button value="2" id="btn2"><i id='fas2' class="fas fa-dice"></i></button></td>
+                <td><button value="3" id="btn3"><i id='fas3' class="fas fa-dice"></i></button></td>
+            </tr>
+            <tr>
+                <td><button value="4" id="btn4"><i id='fas4' class="fas fa-dice"></i></button></td>
+                <td><button value="5" id="btn5"><i id='fas5' class="fas fa-dice"></i></button></td>
+                <td><button value="6" id="btn6"><i id='fas6' class="fas fa-dice"></i></button></td>
+            </tr>
+            <tr>
+                <td><button value="7" id="btn7"><i id='fas7' class="fas fa-dice"></i></button></td>
+                <td><button value="8" id="btn8"><i id='fas8' class="fas fa-dice"></i></button></td>
+                <td><button value="9" id="btn9"><i id='fas9' class="fas fa-dice"></i></button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="start-button">
+        <button><i class="fas fa-chess-knight"></i>START<i class="fas fa-chess-knight"></i></button>
+    </div>
+    <footer>
+        <p>© 2023 <i class="fas fa-gamepad"></i>Mon Jeu. Tous droits réservés.</p>
+    </footer>
+    <script src="jeux.js"></script>
+</body>
+
+</html>

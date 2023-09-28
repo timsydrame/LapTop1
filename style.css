@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E0FFFF, #FFC0CB);
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    color: #d87384;
+    ;
+    transition: transform 0.2s ease-in-out;
+    /* background-color: rgba(0, 0, 0, 0.443); */
+
+}
+
+header:hover {
+    color: #d87384;
+    transform: translateY(-9px);
+
+}
+
+img {
+    width: 70%;
+    height: 80px;
+}
+
+#scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #FFDAB9;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+#scoreboard input {
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#gameboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    display: block;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 2px 2px #888888;
+    background-color: #FFDAB9;
+    transition: background-color 0.9s ease-in-out;
+}
+
+.button-random {
+    background-color: blue;
+}
+
+button:hover {
+    background-color: #d8738496;
+    color: #ffc0cbf4;
+    transform: translateY(-9px);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 5px 15px 0px #FFDAB9(0, 0, 0, 0.75);
+}
+
+#start-button {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#start-button button {
+    padding: 10px 20px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    background-color: #d87384;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px #888888;
+    transition: background-color 0.2s ease-in-out;
+    position: relative;
+
+}
+
+#start-button button:hover {
+    background-color: #d87384;
+}
+
+footer {
+    text-align: center;
+    font-size: 2rem;
+    border: 1px #FFB6C1 solid;
+    box-shadow: #E0FFFF;
+    background-color: #d4f7f72e;
+}
