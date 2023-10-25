@@ -112,11 +112,47 @@ button:hover {
     background-color: #d87384;
 }
 
-form {
+.formLapTop {
     text-align: center;
     margin: 0 auto;
-    width: 50%;
-        
+    max-width: 300px;
+    /* Largeur maximale du formulaire */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#inputSubmitInfos {
+    background-color: #d87384;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#inputSubmitInfos:hover {
+    background-color: #d3556a;
 }
 
 footer {
