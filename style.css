@@ -112,10 +112,20 @@ button:hover {
     background-color: #d87384;
 }
 
+form {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+        
+}
+
 footer {
     text-align: center;
     font-size: 2rem;
     border: 1px #FFB6C1 solid;
     box-shadow: #E0FFFF;
     background-color: #d4f7f72e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
